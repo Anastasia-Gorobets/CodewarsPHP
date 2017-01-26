@@ -1,5 +1,6 @@
 <?php
-require './Task1Test.php';
+
+require __DIR__ . '/../src/Task1.php';
 class Task1Test extends PHPUnit_Framework_TestCase
 {
     public function testTask1(){

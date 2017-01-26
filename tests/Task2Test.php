@@ -1,5 +1,5 @@
 <?php
-require 'Task2.php';
+require __DIR__ . '/../src/Task2.php';
 
 class Task2Test extends PHPUnit_Framework_TestCase
 {
