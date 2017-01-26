@@ -1,5 +1,5 @@
 <?php
-require 'Task1.php';
+require './Task1Test.php';
 class Task1Test extends PHPUnit_Framework_TestCase
 {
     public function testTask1(){
