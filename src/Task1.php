@@ -1,4 +1,5 @@
 <?php
+namespace Source;
 /*
  *Calculation of the Fibonacci functions for 3 digits
  * [1 1 1]=>[1 1 1 3 5 9 ..]

@@ -1,4 +1,5 @@
 <?php
+namespace Source;
 /*
  * https://www.codewars.com/kata/58223370aef9fc03fd000071/train/php
  * Given a number, return a string with dash'-'marks before and after each odd integer,

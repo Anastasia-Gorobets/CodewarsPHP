@@ -1,4 +1,7 @@
 <?php
+namespace Source;
+use yii\base\Exception;
+
 /**
 https://www.codewars.com/kata/52de553ebb55d1fca3000371/train/php
  * list will always be atleast 3 numbers. The missing term will never be the first or last one

@@ -1,7 +1,15 @@
 {
-  "require": {
-    "fxp/composer-asset-plugin": "^1.2.0",
-    "phpunit/phpunit": "5.5.*",
-    "phpunit/dbunit": "2.0.*"
-  }
+    "name": "codewars/pack",
+    "description": "Codewars project",
+    "type": "project",
+    "require": {
+        "fxp/composer-asset-plugin": "^1.2.0",
+        "phpunit/phpunit": "5.5.*",
+        "phpunit/dbunit": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {"Source\\": "src/"
+        }
+    }
+
 }
