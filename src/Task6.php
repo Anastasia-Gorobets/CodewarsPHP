@@ -13,12 +13,7 @@ class Task6
     {
         $numbers = preg_replace("/\D/", ' ', $str);
         $arr = explode(" ", $numbers);
-        $numbers = [];
-        foreach ($arr as $a) {
-            if (!empty($a)) {
-                $numbers[] = $a;
-            }
-        }
+        $numbers=array_filter($arr);
         $sum = array_sum($numbers);
         return $sum;
     }
