@@ -13,8 +13,8 @@ class Task9
 
     public function tower_builder($n)
     {
-        if ($n < 0) {
-            throw new \Exception('Parametr n must be > 0');
+        if ($n <= 0) {
+            throw new \Exception('Parameter n must be > 0');
         }
         $i = 1;
         $mas = [];
