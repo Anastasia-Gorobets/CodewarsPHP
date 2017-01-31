@@ -18,10 +18,9 @@ class Task9
         }
         $i = 1;
         $mas = [];
-        while (true) {
+        while (count($mas) < $n) {
             $mas[] = str_repeat('*', $i);
             $i += 2;
-            if (count($mas) >= $n) break;
         }
         $l = strlen($mas[count($mas) - 1]);
         $mas2 = [];
