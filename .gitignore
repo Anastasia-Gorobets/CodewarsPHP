@@ -1,3 +1,5 @@
 $ cat .gitignore
-vendor/
+.idea
+vendor
+composer.lock
 index.php
