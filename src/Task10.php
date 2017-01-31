@@ -9,7 +9,6 @@ class Task10
 {
     public function DNA_strand($dna)
     {
-
         for ($i = 0; $i < strlen($dna); $i++) {
             switch ($dna[$i]) {
                 case 'A':
