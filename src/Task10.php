@@ -1,7 +1,7 @@
 <?php
 namespace Source;
 /*
-In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G"
+In DNA strings, symbols 'A' and 'T' are complements of each other, as 'C' and 'G'
 https://www.codewars.com/kata/complementary-dna/train/php
 */
 
@@ -27,19 +27,22 @@ class Task10
         }
 
         return $dna;
-
-        /*
-         * $conversion = ["A"=>"T","T"=>"A","G"=>"C", "C"=>"G"] ;
-  $dna = str_split($dna) ;
-  $res = "" ;
-  foreach($dna as $el){
-    $res .= $conversion[$el] ;
-  }
-  return $res ;
-         *
-         */
-
-
     }
 
+    public function DNA_strand_with_map($dna)
+    {
+        $conversion = [
+            'A' => 'T',
+            'T' => 'A',
+            'G' => 'C',
+            'C' => 'G'
+        ];
+
+        $dna = str_split($dna);
+        $res = '';
+        foreach ($dna as $el) {
+            $res .= $conversion[$el];
+        }
+        return $res;
+    }
 }
