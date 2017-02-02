@@ -23,17 +23,16 @@ class Task9Test extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @dataProvider exceptionDataProvider
+     ** @dataProvider exceptionDataProvider
      * @param $n
+     * @expectedException Exception
      */
-
     public function testException($n)
     {
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessage('Parameter n must be > 0');
         $task9 = new Source\Task9();
         $task9->tower_builder($n);
     }
+
     public function exceptionDataProvider()
     {
         return [
