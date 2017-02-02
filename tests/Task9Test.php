@@ -7,7 +7,6 @@ class Task9Test extends PHPUnit_Framework_TestCase
         $task9 = new Source\Task9();
         $res = $task9->tower_builder(1);
         $this->assertEquals(['*'], $res);
-
         $this->assertEquals([
             '  *  ',
             ' *** ',
@@ -34,7 +33,6 @@ class Task9Test extends PHPUnit_Framework_TestCase
         $task9 = new Source\Task9();
         $task9->tower_builder($n);
     }
-
     public function exceptionDataProvider()
     {
         return [
@@ -43,4 +41,5 @@ class Task9Test extends PHPUnit_Framework_TestCase
             [-2],
         ];
     }
+
 }
