@@ -26,6 +26,7 @@ class Task9Test extends PHPUnit_Framework_TestCase
      * @dataProvider exceptionDataProvider
      * @param $n
      */
+
     public function testException($n)
     {
         $this->expectException(Exception::class);
