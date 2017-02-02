@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/Anastasia-Gorobets/CodewarsPHP.svg?branch=master)](https://travis-ci.org/Anastasia-Gorobets/CodewarsPHP)
